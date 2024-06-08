@@ -1,3 +1,5 @@
+@import './components/plans-components/font.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
