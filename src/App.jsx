@@ -1,18 +1,27 @@
-import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import About from './pages/About'
-function App() {
+import {BrowserRouter as Router,  Routes, Route } from 'react-router-dom';
 
-  return (
-    <>
-      <Router>
-        <Routes>
-          <Route path='/' element={<h1 className='text-center text-4xl font-bold'>Hello World!!!</h1>} />
-          <Route path='/about' element={<About />} />
-        </Routes>
-      </Router>
-    </>
-  )
+import AboutUs from "./pages/AboutUs";
+import Password from "./pages/Password";
+import ConfirmPassword from "./pages/confirmPassword";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
+
+
+function App() {
+    return (
+      <>
+        <Router>
+          <Header />
+          <Routes>
+            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/password" element={<Password />} />
+            <Route path="/confirmpassword" element={<ConfirmPassword />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </>
+    );
 }
 
-export default App
+export default App;

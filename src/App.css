@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active {
+    @apply text-secondary-base;
+}
+
+.active li {
+    @apply hover:rounded-none hover:border-transparent hover:border-none;
+}
+
+.container {
+    @apply xl:px-28 lg:px-20 sm:px-14 px-7 max-w-full;
+}
