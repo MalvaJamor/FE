@@ -10,7 +10,7 @@ export default function Modal() {
     navigation("/account");
   };
   return (
-    <div className="w-[1030px] mt-[-20rem]  pt-14 pb-32 px-5 shadow-lg shadow-[#00000057]  mx-auto">
+    <div className="w-[1030px] mt-[-15rem]   pt-14 pb-32 px-5 shadow-lg shadow-[#00000057]  mx-auto">
       <FraamedLogo logoClasses={"w-52 p-4 shadow-custom mx-auto rounded-lg"} />
       <div className="mt-4">
         <h1 className="text-center text-2xl text-custom-purplish-blue font-lighter leading-9">
