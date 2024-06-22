@@ -7,7 +7,7 @@ const Password = () => {
   return (
     <div className="flex h-screen items-center justify-center bg-white">
       <div className="text-center">
-        <img className="block mx-auto w-1/2 mb-8" src={logo} alt="malva" />
+        <img className="block mx-auto w-1/2 mb-8" src={logo} alt="malvas" />
         <div className="gap-y-1">
           <h2 className="text-center text-2xl text-indigo-600 font-semibold">
             Forgot Password
