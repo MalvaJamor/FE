@@ -76,7 +76,7 @@ export default function Form() {
                   label={"Password"}
                   type={"password"}
                   justHide={"cursor-pointer"}
-                  containerClass={"absolute top-[30rem] left-[36.5rem]"}
+                  containerClass={"absolute top-[32.5rem] left-[36.5rem]"}
                   placeholder={"xxxxxxxxxxx"}
                 />
 
@@ -108,7 +108,7 @@ export default function Form() {
               value={passwordValue}
               handleChange={handlePassword}
               label={"Password"}
-              containerClass={"absolute top-[27rem] left-[30.5rem]"}
+              containerClass={"absolute top-[32.5rem] left-[30.5rem]"}
               type={"password"}
               justHide={"cursor-pointer"}
               placeholder={"xxxxxxxxxxx"}
