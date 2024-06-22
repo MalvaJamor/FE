@@ -1,9 +1,7 @@
-
 import logo from "../asset/image/logomal.png";
 import rip from "../asset/image/slash.png";
 import cosh from "../asset/image/dash.png";
-
-
+import { Link } from "react-router-dom";
 
 const Password = () => {
   return (
@@ -50,9 +48,11 @@ const Password = () => {
               src={cosh}
               alt="mull"
             />
-            <h2 className="text-center text-sm text-indigo-600 ml-2">
-              Back to Login
-            </h2>
+            <Link to={'/account'}>
+              <h2 className="text-center text-sm text-indigo-600 ml-2">
+                Back to Login
+              </h2>
+            </Link>
           </div>
         </div>
       </div>
