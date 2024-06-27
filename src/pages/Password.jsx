@@ -1,15 +1,13 @@
-
 import logo from "../asset/image/logaf.png";
 import rip from "../asset/image/slash.png";
 import cosh from "../asset/image/dash.png";
-
-
+import { Link } from "react-router-dom";
 
 const Password = () => {
   return (
     <div className="flex h-screen items-center justify-center bg-white">
       <div className="text-center">
-        <img className="block mx-auto w-1/2 mb-8" src={logo} alt="malva" />
+        <img className="block mx-auto w-1/2 mb-8" src={logo} alt="malvas" />
         <div className="gap-y-1">
           <h2 className="text-center gap-y-0.8 mt-4 text-2xl text-primary-100 font-semibold">
             Forgot Password
@@ -50,9 +48,11 @@ const Password = () => {
               src={cosh}
               alt="mull"
             />
-            <h2 className="text-center text-sm text-primary-100 mr-2 ml-0.5">
-              Back to Login
-            </h2>
+            <Link to={'/account'}>
+              <h2 className="text-center text-sm text-indigo-600 ml-2">
+                Back to Login
+              </h2>
+            </Link>
           </div>
         </div>
       </div>
