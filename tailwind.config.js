@@ -6,12 +6,9 @@ export default {
       fontFamily: {
         poppins: "Poppins, sans-serif", // Adds a new `font-poppins` class
       },
-      custom: ["jakarta", "sans-serif"],
       colors: {
-        "custom-purplish-blue": "#546FFF",
-        "custom-dark-blue": "##141522",
         primary: {
-          100: "#cdddeb",
+         100: "#546FFF",
           200: "#acc7de",
           300: "#83abcd",
           400: "#5a8ebc",
@@ -35,6 +32,9 @@ export default {
           800: "#7E4300",
           900: "#542C00",
           1000: "#321B00",
+        },
+        gray: {
+          950: "#1a1a1a", // Custom gray color example
         },
 
         shades: {
