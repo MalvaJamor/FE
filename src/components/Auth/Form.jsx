@@ -44,7 +44,7 @@ export default function Form() {
                   label={"Password"}
                   type={"password"}
                   justHide={"cursor-pointer"}
-                  containerClass={"absolute top-[29.5rem] left-[30.5rem]"}
+                  containerClass={"absolute top-[34.7rem] left-[30.5rem]"}
                   placeholder={"xxxxxxxxxxx"}
                 />
                 <ParagraphAccess />
