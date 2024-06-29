@@ -4,10 +4,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: "Poppins, sans-serif", // Adds a new `font-poppins` class
+        poppins: "Poppins, sans-serif",
+        jakarta: 'Jakarta, sans-serif' // Adds a new `font-poppins` class
       },
       colors: {
         'custom-purplish-blue': '#546fff',
+        'login-button-gray': '#c2c6e8',
+        'grayish-list' : '#54577a',
         primary: {
          100: "#546FFF",
           200: "#acc7de",
