@@ -1,6 +1,4 @@
 @font-face {
     font-family: 'jakarta';
-    src: url('../assets/jakarta/static/PlusJakartaSans-Regular.ttf') format('.tff');
-    font-weight: normal;
-    font-style: normal;
+    src: url('../assets/jakarta/static/PlusJakartaSans-Regular.ttf');
 }
