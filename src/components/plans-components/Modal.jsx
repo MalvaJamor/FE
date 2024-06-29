@@ -11,12 +11,12 @@ export default function Modal() {
   };
   return (
     <div className="w-[1030px] mt-[-15rem]   pt-14 pb-32 px-5 shadow-lg shadow-[#00000057]  mx-auto">
-      <FraamedLogo logoClasses={"w-52 p-4 shadow-custom mx-auto rounded-lg"} />
+      <FraamedLogo logoClasses={"w-52 p-4 shadow-md mx-auto rounded-lg"} />
       <div className="mt-4">
-        <h1 className="text-center text-2xl text-custom-purplish-blue font-lighter leading-9">
+        <h1 className="text-center text-2xl text-[#546fff] font-lighter leading-9">
           Select account type
         </h1>
-        <p className="text-center text-custom-purplish-blue font-moreLight">
+        <p className="text-center text-[#546fff] font-moreLight">
           How do you want to use Malva;
         </p>
       </div>

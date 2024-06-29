@@ -26,7 +26,7 @@ export default function Sign() {
               Create an account for to have access to the features
             </p>
           </div>
-          <div className="mx-auto p-4 shadow-custom mt-4 w-full">
+          <div className="mx-auto p-4 shadow-md mt-4 w-full">
             <SignInForm />
           </div>
           <div className="flex items-center gap-4 mt-5 mb-3">
@@ -35,7 +35,9 @@ export default function Sign() {
             <LeftLine />
           </div>
           <div>
-            <GoogleButton />
+            <GoogleButton 
+              googleDetails={'Sign in with google'}
+            />
           </div>
           <Question 
           link={'/account'}

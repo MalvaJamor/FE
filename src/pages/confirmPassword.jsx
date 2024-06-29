@@ -28,7 +28,7 @@ const confirmPassword = () => {
               alt="icon"
             />
           </div>
-          <div className="relative mt-2 gap-y-6 mt-4">
+          <div className="relative  gap-y-6 mt-4">
             <p className="text-sm text-primary-100 text-left font-semibold mb-2">
               Confirm Password
             </p>

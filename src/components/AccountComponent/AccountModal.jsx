@@ -17,7 +17,7 @@ export default function AccountModal() {
           <div className="ml-[4rem] mb-4 mt-[-8rem]">
             <div>
               <FraamedLogo
-                logoClasses={"w-52 p-4 mx-auto shadow-custom rounded-lg"}
+                logoClasses={"w-52 p-4 mx-auto shadow-md rounded-lg"}
               />
               <h2 className="text-center font-lighter text-custom-purplish-blue text-2xl mt-6">
                 Welcome Back
@@ -26,7 +26,7 @@ export default function AccountModal() {
                 Please login to your account
               </p>
             </div>
-            <div className="mx-auto p-4 shadow-custom mt-4 w-full">
+            <div className="mx-auto p-4 shadow-md mt-4 w-full">
               <Form />
             </div>
             <div className="flex items-center gap-4 mt-3 mb-3">
@@ -35,7 +35,9 @@ export default function AccountModal() {
               <LeftLine />
             </div>
             <div>
-              <GoogleButton />
+              <GoogleButton 
+                googleDetails={'Log in with google'}
+              />
             </div>
             <Question 
               link={'/sign'}

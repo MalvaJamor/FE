@@ -7,6 +7,7 @@ export default {
         poppins: "Poppins, sans-serif", // Adds a new `font-poppins` class
       },
       colors: {
+        'custom-purplish-blue': '#546fff',
         primary: {
          100: "#546FFF",
           200: "#acc7de",

@@ -44,12 +44,12 @@ export default function Form() {
                   label={"Password"}
                   type={"password"}
                   justHide={"cursor-pointer"}
-                  containerClass={"absolute top-[34.7rem] left-[30.5rem]"}
+                  containerClass={"absolute top-[29.5rem] left-[30.5rem]"}
                   placeholder={"xxxxxxxxxxx"}
                 />
                 <ParagraphAccess />
                 <button
-                  className="bg-custom-purplish-blue mt-4 w-full px-2 py-3 rounded-lg text-white shadow-custom mb-4"
+                  className="bg-custom-purplish-blue mt-4 w-full px-2 py-3 rounded-lg text-white shadow-md mb-4"
                   type="submit"
                   onClick={handleSubmit}
                 >
@@ -76,7 +76,7 @@ export default function Form() {
                   label={"Password"}
                   type={"password"}
                   justHide={"cursor-pointer"}
-                  containerClass={"absolute top-[32.5rem] left-[36.5rem]"}
+                  containerClass={"absolute top-[27rem] left-[30.5rem]"}
                   placeholder={"xxxxxxxxxxx"}
                 />
 
@@ -108,7 +108,7 @@ export default function Form() {
               value={passwordValue}
               handleChange={handlePassword}
               label={"Password"}
-              containerClass={"absolute top-[32.5rem] left-[30.5rem]"}
+              containerClass={"absolute top-[27rem] left-[30.5rem]"}
               type={"password"}
               justHide={"cursor-pointer"}
               placeholder={"xxxxxxxxxxx"}
