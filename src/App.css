@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  max-width:1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 .active {
   @apply text-secondary-base;
 }

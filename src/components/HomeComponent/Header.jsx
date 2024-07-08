@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <div className="grid grid-cols-2 gap-[12rem] mt-32">
-        <div className="w-full py-24">
+        <div className="w-full mt-[-3rem] py-24">
           <h1 className="text-7xl font-extralight">
             Take Control of <br />
             Your <span className="text-[#546FFFee]">Tasks</span> with <br />{" "}
