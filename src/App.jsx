@@ -9,8 +9,9 @@ import Plans from './pages/Plans';
 import Account from "./pages/Account";
 import Sign from './pages/Sign'
 import Home from "./pages/Home";
+import Error from './pages/Error'
+import DropDownMenu from "./components/HomeComponent/DropDownMenu";
 import Pricing from "./pages/Pricing";
-import Error from './pages/Error';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/account" element={<Account />} />
             <Route path="/" element={<Home />} />
+            <Route path="/dropdown" element={<DropDownMenu />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </Router>
