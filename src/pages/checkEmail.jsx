@@ -16,35 +16,42 @@ const CheckEmail = () => {
             obatobi1@gmail.com
           </p>
         </div>
-        <div className="bg-white p-12 rounded-md gap-y-0.2 mt-2">
-          <div className="flex justify-between gap-2 mt-4">
-            <button
-              type="button"
-              className="flex items-center justify-center w-full md:w-1/3 p-4 px-6 text-lg text-black rounded-md font-semibold border border-gray-300"
-            >
-              1
-            </button>
-            <button
-              type="button"
-              className="flex items-center justify-center  w-full md:w-1/3 p-4 px-6  text-lg text-black rounded-md font-semibold border border-gray-300"
-            >
-              2
-            </button>
-            <button
-              type="button"
-              className="flex items-center justify-center w-1/2 p-4 px-6 text-lg text-black rounded-md font-semibold border border-gray-300"
-            >
-              3
-            </button>
-            <button
-              type="button"
-              className="flex items-center bg-gray-100 justify-center w-1/2 p-4 px-6 text-lg text-black rounded-md font-semibold border border-gray-300"
-            ></button>
-          </div>
 
-          <div className="text-center flex items-center justify-center gap-2 mt-4">
-            <p className="text-sm text-primary-100 cursor-pointer">Resend Code</p>
+        <div className="bg-white p-10 rounded-md mt-2">
+          <div className="flex flex-col items-center md:flex-row md:justify-between gap-4 mt-4">
+            <div className="flex items-center justify-center w-full md:w-auto">
+              <input
+                type="number"
+                className="w-full md:w-20 p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                placeholder="button"
+              />
+            </div>
+            <div className="flex items-center justify-center w-full md:w-auto">
+              <input
+                type="number"
+                className="w-full md:w-20 p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                placeholder="button"
+              />
+            </div>
+            <div className="flex items-center justify-center w-full md:w-auto">
+              <input
+                type="number"
+                className="w-full md:w-20 p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                placeholder="button"
+              />
+            </div>
+            <div className="flex items-center bg-gray-100 justify-center w-full md:w-auto">
+              <input
+                type="number"
+                className="w-full md:w-20 p-2 pr-10 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
+                placeholder="button"
+              />
+            </div>
           </div>
+        </div>
+
+        <div className="text-center flex items-center justify-center gap-2 mt-4">
+          <p className="text-sm text-primary-100">Resend Code</p>
         </div>
       </div>
     </div>
