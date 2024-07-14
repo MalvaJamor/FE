@@ -1,17 +1,29 @@
-@import './components/plans-components/font.css';
+@import "./components/plans-components/font.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html {
+  max-width:1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 .active {
-    @apply text-secondary-base;
+  @apply text-secondary-base;
 }
 
 .active li {
-    @apply hover:rounded-none hover:border-transparent hover:border-none;
+  @apply hover:rounded-none hover:border-transparent hover:border-none;
 }
 
 .container {
-    @apply xl:px-28 lg:px-20 sm:px-14 px-7 max-w-full;
+  @apply xl:px-28 lg:px-20 sm:px-14 px-7 max-w-full;
+}
+
+.innerBackground {
+  height: 300px; /* Adjust the height as needed */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 40%, 0% 100%);
+  margin-top: 10rem;
 }

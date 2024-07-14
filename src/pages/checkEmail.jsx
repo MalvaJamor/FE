@@ -4,7 +4,7 @@ const CheckEmail = () => {
   return (
     <div className="flex h-screen items-center justify-center bg-white">
       <div className="text-center gap-y-1 mt-4">
-        <img className="block  mx-auto w-1/2 mb-8" src={logo} alt="malva" />
+        <img className="block cursor-pointer  mx-auto w-1/2 mb-8" src={logo} alt="malva" />
         <div>
           <h2 className="text-xl text-primary-100 font-semibold">
             Check your email

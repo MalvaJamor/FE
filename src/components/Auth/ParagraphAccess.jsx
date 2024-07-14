@@ -18,7 +18,7 @@ export default function ParagraphAccess() {
         </label>
       </div>
       <div>
-        <Link to={'/password'} >
+        <Link to={'/confirmpassword'} >
         <p className="font-moreLight underline text-custom-purplish-blue">Forgot password?</p>
         </Link>
       </div>
