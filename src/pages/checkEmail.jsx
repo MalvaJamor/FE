@@ -23,35 +23,31 @@ const CheckEmail = () => {
               <input
                 type="number"
                 className="w-full md:w-20 p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
-                placeholder="button"
               />
             </div>
             <div className="flex items-center justify-center w-full md:w-auto">
               <input
                 type="number"
                 className="w-full md:w-20 p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
-                placeholder="button"
               />
             </div>
             <div className="flex items-center justify-center w-full md:w-auto">
               <input
                 type="number"
                 className="w-full md:w-20 p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
-                placeholder="button"
               />
             </div>
             <div className="flex items-center bg-gray-100 justify-center w-full md:w-auto">
               <input
                 type="number"
                 className="w-full md:w-20 p-2 pr-10 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
-                placeholder="button"
               />
             </div>
           </div>
         </div>
 
         <div className="text-center flex items-center justify-center gap-2 mt-4">
-          <p className="text-sm text-primary-100">Resend Code</p>
+          <p className="text-sm text-primary-100 cursor-pointer">Resend Code</p>
         </div>
       </div>
     </div>
