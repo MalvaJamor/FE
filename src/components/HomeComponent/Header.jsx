@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import NormalHorizontal from "../AccountComponent/NormalHorizontal";
 import homeIllustration from "../assets/homeIllustration.svg";
 import people from "../assets/people.svg";
@@ -11,6 +12,7 @@ export default function Header() {
             Your <span className="text-[#546FFFee]">Tasks</span> with <br />{" "}
             Malva
           </h1>
+          
           <p className="text-[#727272] text-base mt-10">
             Welcome aboard! Say goodbye to chaos and hello to organized success.
             Malva is your partner in conquering tasks, managing time, and
@@ -18,9 +20,11 @@ export default function Header() {
             ever.
           </p>
           <div className="flex items-center gap-7 mt-20">
-            <button className=" text-white bg-custom-purplish-blue py-2 px-4 mt-4 rounded-lg">
-              Get Started
-            </button>
+            <Link to={"/sign"}>
+              <button className=" text-white bg-custom-purplish-blue py-2 px-4 mt-4 rounded-lg">
+                Get Started
+              </button>
+            </Link>
             <div className="mt-2">
               <img src={people} alt="" />
             </div>
@@ -31,7 +35,9 @@ export default function Header() {
         </div>
       </div>
       <div className="relative mt-10">
-        <NormalHorizontal normalClasses={" w-8 absolute right-0 h-40 ml-auto bg-[#3D53DB]"} />
+        <NormalHorizontal
+          normalClasses={" w-8 absolute right-0 h-40 ml-auto bg-[#3D53DB]"}
+        />
         <div className="w-[110px]  text-center rounded-full text-[#141522] mx-auto bg-[#DCE4FF]">
           Pricing Plans
         </div>

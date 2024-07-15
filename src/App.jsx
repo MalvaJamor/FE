@@ -9,6 +9,7 @@ import Account from "./pages/Account";
 import Sign from './pages/Sign'
 import Home from "./pages/Home";
 import Error from './pages/Error'
+import DropDownMenu from "./components/HomeComponent/DropDownMenu";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/checkemail" element={<CheckEmail />} />
             <Route path="/account" element={<Account />} />
             <Route path="/" element={<Home />} />
+            <Route path="/dropdown" element={<DropDownMenu />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </Router>
