@@ -4,16 +4,14 @@ import twitter from "../assets/twitter.svg";
 import youtube from "../assets/youtube.svg";
 import path from "../assets/Path.svg";
 import send from '../assets/send.svg';
+import footerLogo from "../assets/NewDesignImages/footerLogo.svg";
 export default function Footer() {
   return (
-    <footer className="bg-[#10197A] mt-32 p-10">
+    <footer className="bg-[#546fff] mt-32 p-10">
       <div className="grid grid-cols-3 gap-32 items-center">
-        <div className="grid grid-cols-4 items-center">
-          <FramedIcon icon={instagram} />
-          <FramedIcon icon={path} />
-          <FramedIcon icon={twitter} />
-          <FramedIcon icon={youtube} />
-        </div>
+      <div className="mt-[-13rem]">
+      <img src={footerLogo} alt="malva logo" />
+      </div>
         <div className="grid grid-cols-2">
           <div className="text-[#F5F7FA]">
             <h1 className="text-white font-normal mb-6 text-2xl">Company</h1>
@@ -36,6 +34,12 @@ export default function Footer() {
           <label className="text-white text-2xl" htmlFor="stay">Stay up to date</label>
           <input className="block mt-4 bg-[#ffffff2d] w-[255px] h-[40px] px-2 rounded-md placeholder:text-[#D9DBE1]" placeholder="Your email address" type="email" id="stay" />
           <img src={send} className="-translate-y-7 translate-x-[14rem]" alt="send" />
+          <div className="grid grid-cols-4 items-center mt-[5rem]">
+          <FramedIcon icon={instagram} />
+          <FramedIcon icon={path} />
+          <FramedIcon icon={twitter} />
+          <FramedIcon icon={youtube} />
+        </div>
         </div>
       </div>
     </footer>

@@ -7,6 +7,12 @@ export default {
         poppins: "Poppins, sans-serif",
         jakarta: 'Jakarta, sans-serif' // Adds a new `font-poppins` class
       },
+      backgroundImage: {
+        'custom-gradient' : 'linear-gradient(45deg, #BAC8ff 0%, #546fff 30%, #fff 70%)'
+      },
+      boxShadow: {
+        'thick-gray': '0 4px 8px rgba(0, 0, 0, 0.3)', // Custom shadow with more thickness and gray color
+      },
       colors: {
         'custom-purplish-blue': '#546fff',
         'login-button-gray': '#c2c6e8',

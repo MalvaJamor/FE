@@ -1,15 +1,39 @@
 import Footer from "../components/HomeComponent/Footer";
+// import Header from "../components/HomeComponent/Header";
+// import LowerSection from "../components/HomeComponent/LowerSection";
+// import MainContent from "../components/HomeComponent/MainContent";
+import Benefits from "../components/HomeComponent/Benefits";
+import Choosen from "../components/HomeComponent/Choosen";
 import Header from "../components/HomeComponent/Header";
-import LowerSection from "../components/HomeComponent/LowerSection";
-import MainContent from "../components/HomeComponent/MainContent";
 import Navbar from "../components/HomeComponent/Navbar";
-import SectionFour from "../components/HomeComponent/SectionFour";
-import SectionThree from "../components/HomeComponent/SectionThree";
-import SectionTwo from "../components/HomeComponent/SectionTwo";
+import NewDesignComponent from "../components/HomeComponent/NewDesignComponent";
+import Testimonials from "../components/HomeComponent/Testimonials";
+// import SectionFour from "../components/HomeComponent/SectionFour";
+// import SectionThree from "../components/HomeComponent/SectionThree";
+// import SectionTwo from "../components/HomeComponent/SectionTwo";
 
 export default function Home() {
   return (
-    <div className=" font-jakarta">
+    <>
+      <div className="font-jakarta">
+        <section className="p-4">
+          <Navbar />
+          <Header />
+        </section>
+        <NewDesignComponent />
+        <section className="p-4">
+          <Benefits />
+          <Choosen />
+          <Testimonials />
+        </section>
+        <Footer />
+      </div>
+    </>
+  );
+}
+
+{
+  /* <div className=" font-jakarta">
       <section className="p-4">
       <Navbar />
       <Header />
@@ -32,6 +56,5 @@ export default function Home() {
         </div>
       </section>
       <Footer />
-    </div>
-  );
+    </div> */
 }

@@ -1,4 +1,4 @@
-import members from "../assets/Icon1.svg";
+ import members from "../assets/Icon1.svg";
 import nationalBuilding from "../assets/Icon2.svg";
 import groupHands from "../assets/icon3.svg";
 export default function LowerSection() {
